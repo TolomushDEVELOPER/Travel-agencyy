@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+button, button:hover {
+    cursor: pointer;
+
+
+}
+
+body {
+    font-family: Solway, serif;
+}
+
+#header {
+    background: url("../img/Traveller 1.png") no-repeat center/cover;
+    height: 100vh;
+    margin-bottom: 200px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.links {
+
+    font-family: UlЫяtra, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 27px;
+    color: #E3D9BC;
+    margin: 8px;
+}
+
+.btn_header {
+    font-family: Ultra, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 27px;
+    color: #E3D9BC;
+    padding: 2px 6px;
+    border: 1px solid #E3D9BC;
+    border-radius: 5px;
+    background: none;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.language_text {
+    font-family: Ultra, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    color: #E3D9BC;
+}
+
+.hero {
+    position: relative;
+
+}
+
+.plain1 {
+    position: absolute;
+    margin: -680px 600px;
+}
+
+.title1 {
+    font-family: Solway, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #DAA520;
+}
+
+.title2 {
+    font-family: Ultra, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 69px;
+    letter-spacing: -0.04em;
+    color: #E3D9BC;
+}
+
+.title3 {
+    font-family: Taviraj, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5E6282;
+}
+
+.decore {
+    position: absolute;
+    margin: -140px -140px
+}
+
+.hero_btn {
+    font-family: Solway, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    background: #DAA520;
+    box-shadow: 0 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+    border: none;
+}
+
+/*.......................................................*/
+
+.hero_title {
+    font-family: Solway, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #DAA520;
+    margin-top: -153px;
+}
+
+.hero_title2 {
+    font-family: Solway, serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1A1616;
+
+}
+
+
+.bootstrap {
+    width: 355px;
+    height: 210px;
+
+}
+
+.title_boot {
+    font-family: Solway, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+
+    color: #DAA520;
+
+}
+
+.subtitle__boot {
+    font-family: Solway, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #5E6282;
+
+}
+
+/*////////////////////////////////////////////////////////////*/
+
+#section {
+    background: #F2D9A7;
+}
+
+.booking__title {
+    padding-top: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #DAA520;
+}
+
+.title__bookings {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #1A1616;
+
+}
+
+.booking__subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 124.5%;
+    color: #5E6282;
+}
+
+.rectengle__bg {
+    width: 100%;
+    height: 527px;
+}
+
+.img__footer {
+    width: 91%;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 0 0 24px 24px;
+    margin-top: -133px;
+    margin-left: 40px;
+}
+
+.img__footer__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 124.5%;
+    color: #5E6282;
+    margin-left: 10px;
+}
+
+.img__footer__titles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img__footer__titles__1 {
+    display: flex;
+    margin-left: 10px;
+}
+
+.title2__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 124.5%;
+    color: #5E6282;
+    margin-right: 10px;
+}
+
+.title3 {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #1A1616;
+}
+
+.subtitle3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 124.5%;
+    color: #5E6282;
+}
+
+.footer__img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__12 {
+    margin-top: 50px;
+    width: 100%;
+    height: 477px;
+    display: flex;
+}
+
+/*///////////////////////////////////////////////////////////////////////*/
+.plain2 {
+    position: absolute;
+    left: -43px;
+    top: -221px;
+}
+
+.fly__title1 {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #5E6282;
+}
+
+.fly__title2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FCAF17;
+}
+
+#fly {
+    background: url("../img/Flight booking system 2.png") no-repeat center/cover;
+    height: 80vh;
+    position: relative;
+}
+
+.fly__search {
+
+    width: 481px;
+    height: 450px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.fly__title3 {
+    padding-top: 30px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 124.5%;
+    color: #1A1616;
+}
+
+.span {
+    margin-top: 60px;
+    margin-left: 90px;
+    background: #C4C4C4;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    color: #606060;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.31);
+}
+
+.span2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    color: #606060;
+    background: #FFFFFF;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.31);
+
+}
+
+.fly__options {
+    display: flex;
+    justify-content: space-around;
+}
+
+.select1 {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 124.5%;
+    color: #1A1616;
+}
+
+
+.select2 {
+
+    width: 167px;
+    background: #C4C4C4;
+    border: none;
+}
+
+
+.btn1 {
+    margin-left: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 124.5%;
+    color: #1A1616;
+    width: 409px;
+    height: 50px;
+    background: #DAA520;
+    border-radius: 10px;
+}
+
+.comps {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#subcribe {
+    background: rgba(50, 53, 63, 0.7);
+
+    height: 60vh;
+}
+
+.cociz__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 54px;
+    text-align: center;
+    color: #1A1616;
+    padding-top: 70px;
+}
+
+.inp {
+    margin-left: 230px;
+    margin-top: 100px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #39425D;
+    padding: 20px 100px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn__sub {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #876C29 0%, #DAA520 100%);
+    border-radius: 10px;
+    padding: 24px 34px;
+    border: none;
+    margin-left: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+
+.ps{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    color: #1A1616;
+}
+.title4{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 124.5%;
+    color: #080809;
+}
